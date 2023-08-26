@@ -2,7 +2,7 @@ import MainRoutes from './router/Router'
 
 function App() {
   return (
-    <div className="bg-main-cream">
+    <div>
       <MainRoutes/>
     </div>
   )

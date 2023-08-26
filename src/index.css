@@ -10,3 +10,15 @@
 .logo-Font{
     font-family: danity;
 }
+
+*::-webkit-scrollbar{
+    width: 5px;
+    background-color: #FFF5E0;
+}
+*::-webkit-scrollbar-thumb{
+    background-color: #F82B44;
+}
+
+body{
+    background-color: #FFF5E0;
+}

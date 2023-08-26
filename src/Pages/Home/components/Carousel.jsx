@@ -23,17 +23,19 @@ const Carousel = () => {
 
     }
 
-    const autoSlide = () => {
-        setInterval(() => {
-            if(carouselBox.current.scrollLeft >= (carouselBox.current.parentElement.offsetWidth * (carouselBox.current.querySelectorAll('div.carouselChild').length -1) - 50)){
-                carouselBox.current.scrollLeft = 0;
-            }else{
-                carouselBox.current.scrollLeft += (carouselElement.current.offsetWidth + 64);
+    {/*
+        const autoSlide = () => {
+                setInterval(() => {
+                    if(carouselBox.current.scrollLeft >= (carouselBox.current.parentElement.offsetWidth * (carouselBox.current.querySelectorAll('div.carouselChild').length -1) - 50)){
+                        carouselBox.current.scrollLeft = 0;
+                    }else{
+                        carouselBox.current.scrollLeft += (carouselElement.current.offsetWidth + 64);
+                    }
+                }, 5000);
             }
-        }, 5000);
-    }
 
-    useEffect(autoSlide,[])
+            useEffect(autoSlide,[])
+    */}
 
 
   return (
@@ -44,13 +46,13 @@ const Carousel = () => {
 
             <div ref={carouselBox} className='w-full flex gap-16 scroll-smooth  overflow-hidden'>
 
-                <div ref={carouselElement} className='min-w-full flex carouselChild'>
-                    <div className='w-6/12 h-full flex flex-col gap-20 p-3'>
-                        <h2 className='text-6xl font-bold text-main-red mt-48 leading-normal'>Lezzet Dolu Siparişler İçin Buradayız!</h2>
-                        <p className=' text-slate-600 font-semibold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minima adipisci explicabo. Nisi, ex facere. Nam, error. Eum beatae asperiores animi ducimus, deserunt similique officiis ea quia sit dicta dignissimos!
+                <div ref={carouselElement} className='min-w-full flex md:flex-row flex-col-reverse carouselChild'>
+                    <div className='md:w-6/12 w-full h-full flex flex-col lg:gap-20 md:gap-6 gap-3 p-3'>
+                        <h2 className='2xl:text-6xl md:text-3xl text-3xl font-bold text-main-red xl:mt-48 lg:mt-28 md:leading-normal'>Lezzet Dolu Siparişler İçin Buradayız!</h2>
+                        <p className='2xl:text-base xl:text-sm md:text-sm text-sm text-slate-600 font-semibold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minima adipisci explicabo. Nisi, ex facere. Nam, error. Eum beatae asperiores animi ducimus, deserunt similique officiis ea quia sit dicta dignissimos!
                         Unde obcaecati consequuntur laborum cum voluptas hic nesciunt alias, rerum atque optio sed modi maiores, eligendi officia. Officiis, tenetur harum. Harum, reprehenderit doloribus. Doloribus illo, nemo a nostrum exercitationem illum.</p>
                     </div>
-                    <div className='w-8/12'>
+                    <div className='2xl:w-8/12 md:w-6/12 w-full'>
                         <img src={IceCreamShop}/>
                     </div>
                 </div>
