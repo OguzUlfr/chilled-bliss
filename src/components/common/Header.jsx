@@ -15,7 +15,7 @@ const Header = () => {
         </div>
         <div className={`gap-7 items-center font-bold text-gray-500 xl:text-base md:text-sm sm:flex sm:flex-row flex-col  ${showNavbar ? 'flex' : 'hidden'}`}>
             <NavLink to="/" className={"[&.active]:text-main-red w-20 text-center [&.active]:border-b-main-red transition-all border-b-transparent border-b-2 hover:border-b-main-red"}>Home</NavLink>
-            <NavLink to="/product" className={"[&.active]:text-main-red w-20 text-center [&.active]:border-b-main-red transition-all border-b-transparent border-b-2 hover:border-b-main-red"}>Products</NavLink>
+            <NavLink to="/product/kulah" className={"[&.active]:text-main-red w-20 text-center [&.active]:border-b-main-red transition-all border-b-transparent border-b-2 hover:border-b-main-red"}>Products</NavLink>
             <NavLink to="/store" className={"[&.active]:text-main-red w-20 text-center [&.active]:border-b-main-red transition-all border-b-transparent border-b-2 hover:border-b-main-red"}>Stores</NavLink>
             <NavLink to="/about" className={"[&.active]:text-main-red w-20 text-center [&.active]:border-b-main-red transition-all border-b-transparent border-b-2 hover:border-b-main-red"}>About</NavLink>
             <NavLink to="/contact" className={"[&.active]:text-main-red w-20 text-center [&.active]:border-b-main-red transition-all border-b-transparent border-b-2 hover:border-b-main-red"}>Contact</NavLink>

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="mt-36">
         <div className="w-full absolute bg-main-red h-auto left-0 p-5 py-12">
-            <div className="md:w-10/12 w-full mx-auto md:flex-row flex-col flex md:justify-between md:first-letter:gap-0 gap-10">
+            <div className="md:w-10/12 w-full mx-auto md:flex-row flex-col flex md:justify-between md:gap-0 gap-10">
                 <div className="md:w-3/12 w-full flex flex-col gap-6 text-main-cream">
                     <NavLink to="/" className="text-4xl logo-Font">Chilled Bliss</NavLink>
                     <div className="flex flex-col font-semibold">
@@ -17,7 +17,7 @@ const Footer = () => {
                     </div>
                     <span className="font-semibold">Site Hakları 2020 &copy;</span>
                 </div>
-                <div className="md:w-5/12 w-full flex gap-4 pt-3 lg:text-base md:text-sm text-main-cream font-semibold">
+                <div className="md:w-5/12 w-full flex gap-0 pt-3 lg:text-base md:text-sm text-main-cream font-semibold">
                     <div className="w-1/2 flex flex-col gap-4">
                         <Link to="/">Home</Link>
                         <Link to="/product">Product</Link>
