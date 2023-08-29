@@ -5,6 +5,7 @@ import MobileApp from "./components/MobileApp"
 import Branches from "./components/Branches"
 
 const Home = () => {
+
   return (
     <div>
       <Carousel/>

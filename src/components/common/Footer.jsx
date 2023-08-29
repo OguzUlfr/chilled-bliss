@@ -1,8 +1,17 @@
 import { Link, NavLink } from "react-router-dom"
 import StoreImage from '../../assets/image/store.png'
+import { useEffect, useState } from "react"
 
 
 const Footer = () => {
+    const [data, setData] = useState();
+
+    useEffect(()=>{
+        fetch('https://chilled-bills/pages')
+        .then(response => response.json())
+        .then(page => setData(page));
+      },[])
+
   return (
     <div className="mt-36">
         <div className="w-full absolute bg-main-red h-auto left-0 p-5 py-12">
@@ -19,11 +28,11 @@ const Footer = () => {
                 </div>
                 <div className="md:w-5/12 w-full flex gap-0 pt-3 lg:text-base md:text-sm text-main-cream font-semibold">
                     <div className="w-1/2 flex flex-col gap-4">
-                        <Link to="/">Home</Link>
-                        <Link to="/product">Product</Link>
-                        <Link to="/store">Stores</Link>
-                        <Link to="/about">About</Link>
-                        <Link to="/contact">Contact</Link>
+                        {data &&
+                            data.map((page, key) => (
+                                <Link key={key} to={page.route}>{page.name}</Link>
+                            ))
+                        }
                     </div>
                     <div className="w-1/2 flex flex-col gap-4">
                         <Link>FAQ (Frequently Asked Questions)</Link>
