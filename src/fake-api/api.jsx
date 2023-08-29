@@ -6,6 +6,8 @@ import { campaign } from './campaign'
 import { branches } from './branches'
 import { kulah, tabak } from './product'
 import { stores } from './stores'
+import { about } from './about'
+import { contact } from './contact'
 
 const worker = setupWorker(
   rest.get('https://chilled-bills/pages', (req, res, ctx) => {
@@ -62,6 +64,33 @@ const worker = setupWorker(
       ctx.delay(800),
       ctx.status(200, 'Mocked status'),
       ctx.json(stores),
+    )
+  }),
+  rest.get('https://chilled-bills/about', (req, res, ctx) => {
+    return res(
+      ctx.delay(800),
+      ctx.status(200, 'Mocked status'),
+      ctx.json(about),
+    )
+  }),
+  rest.get('https://chilled-bills/contact', (req, res, ctx) => {
+    return res(
+      ctx.delay(800),
+      ctx.status(200, 'Mocked status'),
+      ctx.json(contact),
+    )
+  }),
+  rest.post('https://chilled-bills/contact', (req, res, ctx) => {
+    const { name, email, title, content } = req.body;
+    return res(
+      ctx.delay(800),
+      ctx.status(200, 'Mocked status'),
+      ctx.json({
+        "name": name,
+        "email": email,
+        "title": title,
+        "content": content
+      }),
     )
   })
 )
