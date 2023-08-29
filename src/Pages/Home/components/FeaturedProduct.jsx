@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 
 
 const FeaturedProduct = () => {
@@ -22,7 +23,7 @@ const FeaturedProduct = () => {
           <div key={key} className="w-64 h-[350px] p-3 flex flex-col items-center justify-between">
             <div className="w-full h-4/6 bg-center bg-contain bg-no-repeat" style={{backgroundImage: `url(${product.image})`}}/>
             <h4 className='text-center font-bold text-main-cream'>{product.title}</h4>
-            <button className='bg-main-cream text-main-red font-bold px-5 py-2 rounded-lg hover:bg-opacity-60'>Daha Fazla</button>
+            <Link to="/product/kulah" className='bg-main-cream text-main-red font-bold px-5 py-2 rounded-lg hover:bg-opacity-60'>More</Link>
           </div>
           ))
           :

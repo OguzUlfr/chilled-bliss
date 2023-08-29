@@ -26,6 +26,8 @@ const FormRight= () => {
       },[1000])
     });
 
+    setFormData({name: "", mail: "", title: "", content: ""});
+
    
     e.preventDefault();
 
@@ -33,26 +35,26 @@ const FormRight= () => {
 
   return (
     <form onSubmit={e => formSubmit(e)} className="sm:w-1/2 w-full h-[620px] bg-main-red flex flex-col xl:p-14 lg:p-12 md:p-4 sm:p-2 p-3 py-10 items-center gap-7">
-      <h4 className="text-3xl text-main-cream font-bold">Bilgiler</h4>   
+      <h4 className="text-3xl text-main-cream font-bold">Information</h4>   
       <label className="flex items-center gap-6 md:text-xl text-base font-bold">
-        <span className="text-main-cream md:text-base border-r-2 border-r-main-cream px-4 xl:w-52 lg:w-40 sm:w-36 w-36 ">İsim Soyisim</span>
-        <input onChange={e => formInputData(e)} name="name" className="w-3/6 p-1 shadow-xl bg-main-cream rounded-md outline-none px-2 text-main-red"/>
+        <span className="text-main-cream md:text-base border-r-2 border-r-main-cream px-4 xl:w-52 lg:w-40 sm:w-36 w-36 ">Name Surname</span>
+        <input onChange={e => formInputData(e)} value={formData.name || ''} name="name" className="w-3/6 p-1 shadow-xl bg-main-cream rounded-md outline-none px-2 text-main-red"/>
       </label>
       <label className="flex items-center gap-6 md:text-xl text-base font-bold">
         <span className="text-main-cream md:text-base border-r-2 border-r-main-cream px-4 xl:w-52 lg:w-40 sm:w-36 w-36 ">E-mail</span>
-        <input onChange={e => formInputData(e)} name="mail" className="w-3/6 p-1 shadow-xl bg-main-cream rounded-md outline-none px-2 text-main-red"/>
+        <input onChange={e => formInputData(e)} value={formData.mail || ''} name="mail" className="w-3/6 p-1 shadow-xl bg-main-cream rounded-md outline-none px-2 text-main-red"/>
       </label>
       <label className="flex items-center gap-6 md:text-xl text-base font-bold">
-        <span className="text-main-cream md:text-base border-r-2 border-r-main-cream px-4 xl:w-52 lg:w-40 sm:w-36 w-36 ">Başlık</span>
-        <input onChange={e => formInputData(e)} name="title" className="w-3/6 p-1 shadow-xl bg-main-cream rounded-md outline-none px-2 text-main-red"/>
+        <span className="text-main-cream md:text-base border-r-2 border-r-main-cream px-4 xl:w-52 lg:w-40 sm:w-36 w-36 ">Title</span>
+        <input onChange={e => formInputData(e)} value={formData.title || ''} name="title" className="w-3/6 p-1 shadow-xl bg-main-cream rounded-md outline-none px-2 text-main-red"/>
       </label>
       <label className="w-full flex flex-col px-8 gap-4 mt-4">
-        <span className="w-full text-main-cream font-bold text-2xl">İçerik</span>
-        <textarea onChange={e => formInputData(e)} name="content" className="w-full p-3 h-32 bg-main-cream rounded-xl outline-none text-main-red font-semibold"></textarea>
+        <span className="w-full text-main-cream font-bold text-2xl">Content</span>
+        <textarea onChange={e => formInputData(e)} value={formData.content || ''} name="content" className="w-full p-3 h-32 bg-main-cream rounded-xl outline-none text-main-red font-semibold"></textarea>
       </label>
       <button className="bg-main-cream text-main-red font-bold w-36 h-10 flex justify-center items-center rounded-lg hover:bg-opacity-70">
         {status === "success" && <FaCheck className="text-main-red"/> }
-        {status === "sleep" && "Gönder"}
+        {status === "sleep" && "Submit"}
         {status === "waiting" && 
           <div className='w-full flex items-center justify-center'>
             <div

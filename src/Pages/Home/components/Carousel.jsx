@@ -43,8 +43,7 @@ const Carousel = () => {
                                 <p className='2xl:text-base xl:text-sm md:text-sm text-sm text-slate-600 font-semibold'>{element.description}</p>
                             </div>
                             <div className='2xl:w-8/12 md:w-6/12 w-full'>
-                                 <img src={IceCreamShop}/>
-                                 <span>{element.image}</span>
+                                 <img className='w-full' src={element.image}/>
                             </div>
                         </div>
                     ))        

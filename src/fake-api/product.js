@@ -1,133 +1,185 @@
 export const kulah = [
     {
-        "name": "name1",
-        "image": "image1"
+        "name": "Raspberry",
+        "image": "https://i.ibb.co/prr3G2j/Ahududu.png"
     },
     {
-        "name": "name2",
-        "image": "image2"
+        "name": "Almond",
+        "image": "https://i.ibb.co/nRtxXrh/Bademli.png"
     },
     {
-        "name": "name3",
-        "image": "image3"
+        "name": "Dark Chocolate",
+        "image": "https://i.ibb.co/Fn1qsJj/Bitter-ikolata.png"
     },
     {
-        "name": "name4",
-        "image": "image4"
+        "name": "Chocolate Peanut Butter",
+        "image": "https://i.ibb.co/8sp2B6n/ikolata-F-st-k-Ezmesi.png"
     },
     {
-        "name": "name5",
-        "image": "image5"
+        "name": "Chocolate Pistachio",
+        "image": "https://i.ibb.co/ZcSXtJB/ikolata-F-st-kl.png"
     },
     {
-        "name": "name6",
-        "image": "image6"
+        "name": "Chocolate",
+        "image": "https://i.ibb.co/4RBJsw1/ikolata.png"
     },
     {
-        "name": "name7",
-        "image": "image7"
+        "name": "Strawberry",
+        "image": "https://i.ibb.co/hMNSS19/ilek.png"
     },
     {
-        "name": "name8",
-        "image": "image8"
+        "name": "Hazelnut",
+        "image": "https://i.ibb.co/tYvqZHD/F-nd-k.png"
     },
     {
-        "name": "name9",
-        "image": "image9"
+        "name": "Coconut",
+        "image": "https://i.ibb.co/GFvWwwQ/Hindistan-Cevizli.png"
     },
     {
-        "name": "name10",
-        "image": "image10"
+        "name": "Kadayifli",
+        "image": "https://i.ibb.co/26zW5wz/Kaday-fl.png"
     },
     {
-        "name": "name11",
-        "image": "image11"
+        "name": "Coffee",
+        "image": "https://i.ibb.co/zQw9HMy/Kahve.png"
     },
     {
-        "name": "name12",
-        "image": "image12"
+        "name": "Caramel",
+        "image": "https://i.ibb.co/jV6npBd/Karamel.png"
     },
     {
-        "name": "name13",
-        "image": "image13"
+        "name": "Caramel Hazelnut",
+        "image": "https://i.ibb.co/w0ss0kS/Karamelli-F-nd-k.png"
     },
     {
-        "name": "name14",
-        "image": "image14"
+        "name": "Red Fruity",
+        "image": "https://i.ibb.co/YyyYv05/K-rm-z-meyveli.png"
     },
     {
-        "name": "name15",
-        "image": "image15"
+        "name": "Cream Caramel",
+        "image": "https://i.ibb.co/yRByT4S/Krem-Karamel.png"
     },
     {
-        "name": "name16",
-        "image": "image16"
+        "name": "With lemon",
+        "image": "https://i.ibb.co/KGBn4dj/Limonlu.png"
+    },
+    {
+        "name": "With fruit syrup",
+        "image": "https://i.ibb.co/G3CGBSY/Meyve-uruplu.png"
+    },
+    {
+        "name": "Banana",
+        "image": "https://i.ibb.co/ck1Tbrf/Muz.png"
+    },
+    {
+        "name": "Mint Chocolate",
+        "image": "https://i.ibb.co/Ws97JNb/Nane-ikolata.png"
+    },
+    {
+        "name": "Forest Fruit",
+        "image": "https://i.ibb.co/ZfzzDqM/orman-meyveli.png"
+    },
+    {
+        "name": "Orange Chocolate",
+        "image": "https://i.ibb.co/sWHMtBg/Portakal-ikolata.png"
+    },
+    {
+        "name": "Cinnamon",
+        "image": "https://i.ibb.co/xsWRcV6/Tar-nl-Elmal.png"
+    },
+    {
+        "name": "Vanilyalı",
+        "image": "https://i.ibb.co/k8SPRs8/Vanilya.png"
     }
 ]
 
 export const tabak = [
     {
-        "name": "tabakname1",
-        "image": "image1"
+        "name": "Raspberry",
+        "image": "https://i.ibb.co/fQjrLSd/Ahududu.png"
     },
     {
-        "name": "tabakname2",
-        "image": "image2"
+        "name": "Almond",
+        "image": "https://i.ibb.co/FqfwtVH/Badem.png"
     },
     {
-        "name": "tabakname3",
-        "image": "image3"
+        "name": "Dark Chocolate",
+        "image": "https://i.ibb.co/NNjrB7S/Bitter-ikolata.png"
     },
     {
-        "name": "tabakname4",
-        "image": "image4"
+        "name": "Chocolate Peanut Butter",
+        "image": "https://i.ibb.co/pJjSR8h/ikolatal-F-st-k-Ezmeli.png"
     },
     {
-        "name": "tabakname5",
-        "image": "image5"
+        "name": "Chocolate Pistachio",
+        "image": "https://i.ibb.co/nfxcTPH/ikolatal-F-st-kl.png"
     },
     {
-        "name": "tabakname6",
-        "image": "image6"
+        "name": "Chocolate",
+        "image": "https://i.ibb.co/kh7Wv6N/ikolatal.png"
     },
     {
-        "name": "tabakname7",
-        "image": "image7"
+        "name": "Strawberry",
+        "image": "https://i.ibb.co/X8yP3vn/ilekli.png"
     },
     {
-        "name": "tabakname8",
-        "image": "image8"
+        "name": "Hazelnut",
+        "image": "https://i.ibb.co/wMwZ8Bn/F-nd-kl.png"
     },
     {
-        "name": "tabakname9",
-        "image": "image9"
+        "name": "Coconut",
+        "image": "https://i.ibb.co/FDpRv4h/Hindistan-Cevizli.png"
     },
     {
-        "name": "tabakname10",
-        "image": "image10"
+        "name": "Kadayifli",
+        "image": "https://i.ibb.co/MVPwWbs/Kaday-fl.png"
     },
     {
-        "name": "tabakname11",
-        "image": "image11"
+        "name": "Coffee",
+        "image": "https://i.ibb.co/7pGn8CS/Kahveli.png"
     },
     {
-        "name": "tabakname12",
-        "image": "image12"
+        "name": "Caramel Hazelnut",
+        "image": "https://i.ibb.co/HFc2PFq/Karamelli-F-nd-kl.png"
     },
     {
-        "name": "tabakname13",
-        "image": "image13"
+        "name": "Caramel",
+        "image": "https://i.ibb.co/hysYMS9/Karamelli.png"
     },
     {
-        "name": "tabakname14",
-        "image": "image14"
+        "name": "Red Fruity",
+        "image": "https://i.ibb.co/SBM3mph/K-rm-z-Beyveli.png"
     },
     {
-        "name": "tabakname15",
-        "image": "image15"
+        "name": "Cream Caramel",
+        "image": "https://i.ibb.co/8j53RkD/Krem-Karamel.png"
     },
     {
-        "name": "tabakname16",
-        "image": "image16"
+        "name": "With Lemon",
+        "image": "https://i.ibb.co/s5WxMyx/Limonlu.png"
+    },
+    {
+        "name": "With fruit syrup",
+        "image": "https://i.ibb.co/Gsq9dB5/Meyve-uruplu.png"
+    },
+    {
+        "name": "Banana",
+        "image": "https://i.ibb.co/tLpw3s1/Muzlu.png"
+    },
+    {
+        "name": "Mint Chocolate",
+        "image": "https://i.ibb.co/j5jn3VK/Nane-ikolatal.png"
+    },
+    {
+        "name": "Forest Fruit",
+        "image": "https://i.ibb.co/TRNBBP6/Orman-Meyveli.png"
+    },
+    {
+        "name": "Orange Chocolate",
+        "image": "https://i.ibb.co/dMDjzGH/Portakal-ikolata.png"
+    },
+    {
+        "name": "Cinnamon",
+        "image": "https://i.ibb.co/TbjZScn/Tanr-nl.png"
     }
 ]

@@ -1,22 +1,22 @@
 export const featured = [
     {
-        "image": "image1",
-        "title": "title1",
+        "image": "https://i.ibb.co/jvL0KR7/ikolatal.png",
+        "title": "Chocolate Cone",
     },
     {
-        "image": "image2",
-        "title": "title2",
+        "image": "https://i.ibb.co/YZ4hrJ0/orman-meyveli.png",
+        "title": "Forest Fruit in Cone",
     },
     {
-        "image": "image3",
-        "title": "title3",
+        "image": "https://i.ibb.co/pQsvMtY/damla-ikolatal.png",
+        "title": "Chocolate Cone with Chocolate Drops",
     },
     {
-        "image": "image4",
-        "title": "title4",
+        "image": "https://i.ibb.co/qgTBRCm/ilekli.png",
+        "title": "Strawberry Cone",
     },
     {
-        "image": "image5",
-        "title": "title5",
+        "image": "https://i.ibb.co/DKqMPkr/orelolu.png",
+        "title": "Oreo cone",
     },
 ]

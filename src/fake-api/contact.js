@@ -1,5 +1,5 @@
 export const contact = {
-    "description": "aaLorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam autem iusto dignissimos commodi, nemo recusandae distinctio, iste nihil accusantium dolore, aut laboriosam repellat iure cupiditate. Reprehenderit aut commodi nostrum consectetur. Possimus culpa earum ullam labore omnis, nostrum vitae ipsam, beatae laborum illo hic dicta cum cumque? Nihil alias qui architecto omnis consectetur, perferendis numquam quis hic. Dolores officiis expedita cumque?",
+    "description": "We are here for you to reach us! If you have any questions about our ice cream shop, suggestions or need help with anything related to your order, we are happy to help. With a warm and friendly service understanding, we are here to respond to you as soon as possible. Thank you for choosing us to share your passion for ice cream by filling out the contact form or contacting us from our contact details.",
     "instagram": "https://instagram.com",
     "twitter": "https://twitter.com/home",
     "facebook": "https://www.facebook.com/",

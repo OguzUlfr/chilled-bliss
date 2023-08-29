@@ -1,163 +1,163 @@
 export const stores = [
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Osmangazi",
+        "city": "Bursa",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city2",
+        "name": "Küçükçekmece",
+        "city": "İstanbul",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city3",
+        "name": "Yenimahalle",
+        "city": "Ankara",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Melikgazi",
+        "city": "Kayseri",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Buca",
+        "city": "İzmir",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Merkez",
+        "city": "Batman",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Odunpazarı",
+        "city": "Eskişehir",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Eyyübiye",
+        "city": "Şanlıurfa",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Merkez",
+        "city": "Sivas",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Antakya",
+        "city": "Hatay",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Çukurova",
+        "city": "Adana",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Meram",
+        "city": "Konya",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Pamukkale",
+        "city": "Denizli",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Tarsus",
+        "city": "Mersin",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "İpekyolu",
+        "city": "Van",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Merkez",
+        "city": "Çorum",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Merkez",
+        "city": "Osmaniye",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Çorlu",
+        "city": "Tekirdağ",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Yunusemre",
+        "city": "Manisa",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Merkez",
+        "city": "Niğde",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Silivri",
+        "city": "İstanbul",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Ereğli",
+        "city": "Zonguldak",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Palandöken",
+        "city": "Erzurum",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Gölcük",
+        "city": "Kocaeli",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Ceyhan",
+        "city": "Adana",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Nazilli",
+        "city": "Aydın",
         "image": "image",
         "coordinates": "test"
     },
     {
-        "name": "name1",
-        "city": "city1",
+        "name": "Merkez",
+        "city": "Bartın",
         "image": "image",
         "coordinates": "test"
     }

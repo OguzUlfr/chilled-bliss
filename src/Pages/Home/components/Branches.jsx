@@ -20,7 +20,7 @@ const Branches = () => {
                 data.map((branch, key) => (
                     <Link key={key} className="w-full h-72 relative bg-black rounded-xl overflow-hidden flex justify-center items-end group">
                         <div className="w-full h-full bg-center bg-cover bg-no-repeat absolute opacity-50 group-hover:scale-105 transition-all"
-                        style={{backgroundImage: "url('https://static.nationalgeographic.co.uk/files/styles/image_3200/public/ngt_we_bistanbul_gettyimages-668990458_hr.jpg?w=1600&h=900')"}}/>
+                        style={{backgroundImage: `url(${branch.image})`}}/>
                         <span className="text-3xl text-white font-bold relative z-10 mb-6 transition-all">{branch.name}</span>
                     </Link>
                 ))

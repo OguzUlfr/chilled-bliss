@@ -1,6 +1,8 @@
 import { Link, NavLink } from "react-router-dom"
-import StoreImage from '../../assets/image/store.png'
 import { useEffect, useState } from "react"
+import AppStoreImage from '../../assets/image/app-store.png'
+import GoogleStoreImage from '../../assets/image/play-store.png'
+import HuaweiStoreImage from '../../assets/image/huawei-app.png'
 
 
 const Footer = () => {
@@ -45,9 +47,9 @@ const Footer = () => {
                 <div className="md:w-3/12 w-full flex flex-col items-center pt-3 gap-3">
                     <span className="text-xl font-bold text-main-cream">Mobile App</span>
                     <div className="flex flex-col gap-2">
-                        <img className="h-10" src={StoreImage}/>
-                        <img className="h-10" src={StoreImage}/>
-                        <img className="h-10" src={StoreImage}/>
+                        <a href='https://www.apple.com/tr/app-store/' target='blank'><img className="h-10" src={AppStoreImage}/></a>
+                        <a href='https://play.google.com/store/games?hl=tr&gl=US' target='blank'><img className="h-10" src={GoogleStoreImage}/></a>
+                        <a href='https://appgallery.huawei.com/Featured' target='blank'><img className="h-10" src={HuaweiStoreImage}/></a>
                     </div>
                 </div>
             </div>

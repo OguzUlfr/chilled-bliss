@@ -8,9 +8,10 @@ const Member = ({data}) => {
             {data &&
                 data[0].teamMember.map((member, key) => (
                     <div key={key} className="w-full h-72 flex flex-col gap-5 items-center">
-                    <div className="w-40 h-40 rounded-full bg-red-500"/>
+                    <div className="w-40 min-h-[160px] h-40 rounded-full bg-center bg-cover bg-no-repeat"
+                    style={{backgroundImage: `url(${member.image}})`}}/>
                     <h6 className="text-2xl font-bold text-main-red">{member.name}</h6>
-                    <span className="text-slate-700 font-medium">{member.role}</span>
+                    <span className="text-slate-700 w-36 text-center font-medium">{member.role}</span>
                 </div>
                 ))
             }
